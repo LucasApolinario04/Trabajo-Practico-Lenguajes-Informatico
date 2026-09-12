@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+ <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudad De Barcelona</title>
+
+ </head>
+
+
+ <body>
+
+
+    <header>
+
+
+<nav>
+
+
+    <a href="index.html">inicio</a>
+    <a href="lugares.hmtl">Lugares</a>
+    <a href="ciudad.html">Ciudad</a>
+    <a href="contactos.html">contactos</a>
+
+</nav>
+
+    </header>
+
+<main>
+
+
+<section>
+
+    <h1>Barcelona</h1>
+
+    <p>Barcelona, la capital de Cataluña, es una ciudad costera de 2.5 millones de habitantes. Las calles serpenteantes de la ciudad están repletas de bares de tapas, y los bailarines tradicionales divierten a los espectadores en las plazas públicas. La influencia del arquitecto modernista Antoni Gaudí se percibe en todas partes, desde parques en las laderas de las colinas hasta edificios públicos.</p>
+
+</section>
+
+<section>
+
+    <h2>caracteristicas principales</h2>
+    <p>Barcelona es considerada como un referente en muchos aspectos. Ciudad moderna y cultural, ha sido elegida en múltiples ocasiones para la realización de grandes eventos mundiales, como los Juegos Olímpicos del 92 o el Fórum Universal de las Culturas 2004, siendo reconocida como “Ciudad global” por su gran riqueza cultural, histórica y arquitectónica, como ciudad financiera, comercial y turística.
+
+Gracias a la privilegiada situación territorial de Barcelona, ubicada a orillas del mar Mediterráneo, disfrutamos de un clima cálido y agradable durante todo el año. El olor a mar y la suave brisa, nos acompañaran durante largos paseos por la ciudad. La lengua oficial en Barcelona, así como en el resto de Cataluña, es el catalán. No obstante, convive con el castellano utilizándose de igual manera.
+
+Una de las características más emblemáticas de la ciudad es su estructura, copiada por diferentes ciudades a lo largo de los años por la simpleza y brillantez en el diseño de las calles. Siguiendo el esquema propio de la ciudad, Barcelona se divide en diferentes barrios, cada uno de ellos con una historia y cultura propia: Ciutat Vella, Eixample, Raval, Sants-Montjuïc, Horta-Guinardó, Les Corts, Gracia, Sarrià – St. Gervasi, entre otros</p>
+</section>
+
+<section>
+
+   <h2>Barrios y zonas destacadas</h2>
+
+   <article>
+
+    <h3>Park guell</h3>
+    <p>Es considerada una de las obras más importantes del modernismo en el mundo, reflejo de la plenitud artística de Gaudí quien desplegó todo su genio arquitectónico poniendo en práctica muchas de sus innovadoras soluciones estructurales. Se construyó en la Montaña Pelada, unos terrenos cóncavos que parecen un anfiteatro con vistas a Barcelona y el mar. De la urbanización inicialmente prevista solo se construyeron dos viviendas, una de ellas es la actual Casa Museo Gaudí y la otra la Casa Trias.</p>
+
+    </article>
+
+   <article>
+
+    <h3>Casa Battlo</h3>
+    <p>La Casa Batlló, de Antoni Gaudí, es una de las obras cumbre del modernismo catalán. En el Passeig de Gràcia, su fluida fachada de cerámica y vidrio, sus balcones con forma de máscara y su tejado suelen interpretarse como el lomo de un dragón. En el interior, la luz se filtra a través del patio azul, mientras que las formas curvas dan forma a las escaleras, las puertas y los techos. El mar y la naturaleza se entrelazan en cada detalle. Transmite la sensación de ser un pequeño relato en piedra, vidrio y luz, donde Gaudí deja volar la imaginación.</p>
+
+
+   </article>
+
+   <article>
+
+    <h3>Barrio Gotico</h3>
+    <p>El Barrio Gótico es el núcleo más antiguo de Barcelona, una céntrica área de la ciudad compuesta por callejuelas y plazas que reflejan el pasado medieval barcelonés con la presencia de palacios, residencias e iglesias góticas.</p>
+
+   </article>
+
+</section>
+
+<section>
+
+    <h2>Costumbres y tradiciones</h2>
+
+    <ul>
+        <li>Tomar el vermut</li>
+        <li>La Sardana</li>
+        <li>La Mona de Pascua</li>
+        <li>Regalar rosas y libros en el dia de Sant jordi</li>
+
+    </ul>
+
+</section>
+
+<section>
+
+    <h2>Datos calve de Barcelona</h2>
+
+    <dl>
+        <dt>Pais</dt>
+        <dd>España</dd>
+
+        <dt>Moneda</dt>
+        <dd>Euro</dd>
+
+        <dt>Poblacion</dt>
+        <dd>+1.700.000</dd>
+
+        <dt>Idiomas Oficiales</dt>
+        <dd>Español y Catalán</dd>
+
+        <dt>Comunidad Autonoma</dt>
+        <dd>Cataluña</dd>
+
+
+    </dl>
+
+</section>
+
+<aside>
+    <h2>Dato interesante</h2>
+    <p>Una de las curiosidades de Barcelona más interesantes es cómo se fundó la ciudad. En la actualidad existen dos leyendas sobre este hecho. La primera de ellas asegura que 400 años antes de la fundación de Roma, Hércules cruzó el Mediterráneo en busca del vellocino de oro y a causa de una tormenta tuvo que parar en la costa catalana, en este caso, junto a Montjuïc. Fue en este momento cuando se asentó en esta área y dio comienzo a la historia de Barcelona con la creación de una muralla.
+
+Por otra parte, el segundo relato sobre este tema afirma que, el padre de Aníbal, Amílcar Barca, fundó la ciudad en el año 230 A.C. y nombró el territorio “Barcino” en honor a su apellido. En cualquier caso, estas leyendas carecen de base histórica y son propuestas por diferentes arqueólogos medievales del siglo XV. </p>
+
+</aside>
+
+
+</main>
+
+<footer>
+    
+    <p>Trabajo Practico</p>
+
+</footer>
+
+</body>
+
+</html>
