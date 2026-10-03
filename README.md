@@ -12,3 +12,4 @@ Es un trabajo practico sobre la ciudad de Barcelona, España. El objetivo es pro
 Lenguajes utilizados
 
 HTML5
+CSS
