@@ -1,15 +1,16 @@
 :root {
---color-primario: #0d3b66;    /* Azul oscuro para Header / Footer */
-  --color-secundario: #0077b6;  /* Azul intermedio para acentos */
-  --color-acento: #f4a261;      /* Color de acento / Hover */
-  --color-fondo: #f8f9fa;       /* Fondo claro de la página */
-  --color-texto: #1a1a1a;       /* Texto principal legible */
-  --color-blanco: #ffffff;      /* Texto sobre fondos oscuros */
+  --color-primario: #0d3b66;   /* Azul oscuro para Header / Footer */
+  --color-secundario: #0077b6; /* Azul intermedio para acentos */
+  --color-acento: #f4a261;     /* Color de acento / Hover */
+  --color-fondo: #f8f9fa;      /* Fondo claro de la página */
+  --color-texto: #1a1a1a;      /* Texto principal legible */
+  --color-blanco: #ffffff;     /* Texto sobre fondos oscuros */
 
-  -- fuente-principal: 'Inter', sans-serif;
- }
- 
-{
+  --fuente-principal: 'Inter', sans-serif;
+}
+
+/* Selector universal corregido */
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -22,14 +23,14 @@ body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
 }
+
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/*   Tipografia Y Encabezados  */
-
+/* Tipografía y Encabezados */
 h1 {
   font-size: 2.2rem;
   color: var(--color-blanco);
@@ -56,8 +57,16 @@ p {
   margin-bottom: 15px;
 }
 
-/* Header y Navegación */
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px 0;
+  border-radius: 8px;
+}
 
+/* Header y Navegación */
 header {
   background-color: var(--color-primario);
   color: var(--color-blanco);
@@ -68,7 +77,6 @@ header {
   text-align: center;
 }
 
-/* Estilos de navegación y enlaces */
 nav {
   margin-top: 10px;
 }
@@ -95,8 +103,28 @@ nav a:hover {
   color: var(--color-primario);
 }
 
-/* Footer */
+/* Listas generales (ul, ol, dl) */
+ul, ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
 
+dl {
+  margin-bottom: 15px;
+}
+
+dt {
+  font-weight: bold;
+  color: var(--color-secundario);
+  margin-top: 10px;
+}
+
+dd {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
 footer {
   background-color: var(--color-primario);
   color: var(--color-blanco);
@@ -105,14 +133,19 @@ footer {
   margin-top: 40px;
 }
 
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
 footer a {
   color: var(--color-acento);
   text-decoration: none;
-  margin: 0 10px;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
-
-
