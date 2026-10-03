@@ -1,0 +1,118 @@
+:root {
+--color-primario: #0d3b66;    /* Azul oscuro para Header / Footer */
+  --color-secundario: #0077b6;  /* Azul intermedio para acentos */
+  --color-acento: #f4a261;      /* Color de acento / Hover */
+  --color-fondo: #f8f9fa;       /* Fondo claro de la página */
+  --color-texto: #1a1a1a;       /* Texto principal legible */
+  --color-blanco: #ffffff;      /* Texto sobre fondos oscuros */
+
+  -- fuente-principal: 'Inter', sans-serif;
+ }
+ 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*   Tipografia Y Encabezados  */
+
+h1 {
+  font-size: 2.2rem;
+  color: var(--color-blanco);
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: var(--color-primario);
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-secundario);
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: var(--color-secundario);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Header y Navegación */
+
+header {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos de navegación y enlaces */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: var(--color-blanco);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estado :hover */
+nav a:hover {
+  background-color: var(--color-acento);
+  color: var(--color-primario);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: var(--color-acento);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
