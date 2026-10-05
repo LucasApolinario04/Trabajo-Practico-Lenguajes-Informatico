@@ -149,3 +149,31 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+section {
+    background-color: var(--color-blanco);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-left: 5px solid var(--color-acento);
+}
+
+section h2 {
+    color: var(--color-primario);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+section h3 {
+    color: var(--color-secundario);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
