@@ -177,3 +177,18 @@ article {
     margin-bottom: 1.5rem;
     padding: 1rem;
 }
+
+/* ========================================
+   FLEXBOX - BARRIOS DE BARCELONA
+   ======================================== */
+
+.contenedor-barrios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contenedor-barrios article {
+    flex: 1 1 250px;
+    margin-bottom: 0;
+}
