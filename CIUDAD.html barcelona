@@ -57,6 +57,8 @@ Una de las características más emblemáticas de la ciudad es su estructura, co
 
    <h2>Barrios y zonas destacadas</h2>
 
+<div class="contenedor-barrios">
+
    <article>
 
     <h3>Park guell</h3>
@@ -77,6 +79,7 @@ Una de las características más emblemáticas de la ciudad es su estructura, co
     <h3>Barrio Gotico</h3>
     <p>El Barrio Gótico es el núcleo más antiguo de Barcelona, una céntrica área de la ciudad compuesta por callejuelas y plazas que reflejan el pasado medieval barcelonés con la presencia de palacios, residencias e iglesias góticas.</p>
 
+</div>
    </article>
 
 </section>
