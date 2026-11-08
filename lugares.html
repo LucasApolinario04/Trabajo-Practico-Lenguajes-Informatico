@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lugares de Interés Turístico - Guía de la Ciudad</title>
     <meta name="description" content="Descubre los mejores lugares de interés turístico en la ciudad, su ubicación y actividades principales.">
+    <!-- Bootstrap CSS  --> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS  -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-    <header>
-        <h1>Lugares de interés turístico en la ciudad</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="ciudad.html">La Ciudad</a></li>
-                <li><a href="lugares.html" aria-current="page">Lugares de Interés</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Navegación principal">
+        <div class="container-fluid">
+            <a class="navbar-brand titulo-principal" href="index.html">Barcelona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+                    aria-expanded="false" aria-label="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ciudad.html">La ciudad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
     <main>
         <article>
@@ -87,6 +97,6 @@
     <footer>
         <p>&copy; 2026 Lugares de interés turístico en la ciudad. Todos los derechos reservados.</p>
     </footer>
-
-</body>
+<!-- Bootstrap JS  --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> </body>
 </html>
