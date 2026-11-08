@@ -192,3 +192,68 @@ article {
     flex: 1 1 250px;
     margin-bottom: 0;
 }
+
+/* Bootstrap */
+
+header {
+  padding: 10px 24px;
+}
+
+header .navbar {
+  width: 100%;
+  margin-top: 0;
+  background-color: var(--color-primario);
+}
+
+/* Logo / nombre de la ciudad */
+header .navbar-brand {
+  font-size: 1.8rem;
+  color: var(--color-blanco);
+  transition: color 0.3s ease;
+}
+
+header .navbar-brand:hover,
+header .navbar-brand:focus {
+  color: var(--color-acento);
+}
+
+/* Links del menú (reemplazan a los estilos de "nav a" de la Etapa 2) */
+.navbar .navbar-nav {
+  gap: 4px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--color-blanco);
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: var(--color-acento);
+  box-shadow: inset 0 -2px 0 var(--color-acento);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  background-color: var(--color-acento);
+  color: var(--color-primario);
+}
+
+/* Botón hamburguesa */
+.navbar .navbar-toggler {
+  border-color: var(--color-acento);
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem var(--color-acento);
+}
+
+/* Menú desplegado en mobile */
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
