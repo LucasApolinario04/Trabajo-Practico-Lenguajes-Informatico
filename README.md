@@ -14,3 +14,4 @@ Lenguajes utilizados
 HTML5
 CSS
 BOOTSTRAP
+JAVASCRIPT
