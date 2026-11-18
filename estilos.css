@@ -257,3 +257,32 @@ header .navbar-brand:focus {
     text-align: center;
   }
 }
+
+/* ========================================
+   MODO OSCURO
+   ======================================== */
+
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f8f9fa;
+}
+
+body.dark-mode section,
+body.dark-mode article {
+  background-color: #2b2b2b;
+  color: #f8f9fa;
+  border-left-color: var(--color-acento);
+}
+
+body.dark-mode h2 {
+  color: var(--color-acento);
+  border-bottom-color: var(--color-secundario);
+}
+
+body.dark-mode h3 {
+  color: #90e0ef;
+}
+
+body.dark-mode dt {
+  color: #90e0ef;
+}
